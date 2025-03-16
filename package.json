@@ -1,0 +1,20 @@
+{
+  "name": "dsalearning",
+  "version": "1.0.0",
+  "description": "Welcome to the **DSA Learning Repository**! This repository is a structured collection of **Data Structures and Algorithms (DSA)** notes, problems, and solutions to help you master the fundamentals and advanced topics in DSA.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/sliding-window.ts",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "nodemon --ext ts --exec ts-node src/sliding-window.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,18 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Compiled output
+dist/
+*.js.map
+
+# Logs and system files
+logs/
+*.log
+npm-debug.log*
+.DS_Store
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.swp
